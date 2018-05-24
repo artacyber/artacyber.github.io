@@ -1,4 +1,4 @@
-
+/*header*/
 body,
 html {
   width: 100%;
@@ -63,7 +63,7 @@ header.startup h1 {
 .body{
   margin: 0px;
 }
-.container {
+.pictures {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -82,6 +82,53 @@ img {
 img:hover {
   transform: scale(1.1);
 }
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.btn-explore {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.btn-explore:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+#trend{
+  padding:50px 0 100px;
+  background:#e8e8e8;
+}
+#trend h3{
+  text-align:center;
+  font-size:30px;
+  line-height:50px;
+  color:#000;
+}
+#trend img{
+  margin:10px auto 40px;
+  display:block;
+}
+
+#trend h5{
+  color:#000000;
+}
+# p{
+  margin:20px 0 10px;
+}
+
 
 
 /*------CONTACT US------*/  
@@ -219,14 +266,7 @@ form textarea:focus{
   color:#ffffff;
 }
 
-image {
+.ft_linewidth {
   width: 370px;
   height: 7px;
-  margin: 10px;
-  transition: all 1s;
-
-}
-
-image:hover {
-  transform: scale(1.1);
 }
